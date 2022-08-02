@@ -1,28 +1,5 @@
-class Cliente { //molde
-  nome;
-  cpf;
-}
-
-class ContaCorrente {
-  agencia;
-  //#saldo 
-  _saldo = 0;
-
-  sacar(valor){
-    if(this._saldo >= valor){
-        this._saldo -= valor;
-        return valor; //Se não tiver retorno, retorna underfined
-    }
-  }
-
-  depositar(valor){
-    if(valor <= 0){
-        return;
-    }
-
-    this._saldo += valor;
-  }
-}
+import {Cliente} from "./Cliente.js"
+import {ContaCorrente} from "./ContaCorrente.js"
 
 const cliente1 = new Cliente(); //Criando objeto ou instância da classe Cliente
 cliente1.nome = "Ricardo";
@@ -34,15 +11,16 @@ cliente2.cpf = 8882223309;
 
 const contaCorrenteRicardo = new ContaCorrente();
 contaCorrenteRicardo.agencia = 1001;
+contaCorrenteRicardo.cliente = cliente1;
+contaCorrenteRicardo.depositar(500);
 
-contaCorrenteRicardo.depositar(100);
-contaCorrenteRicardo.depositar(100);
-contaCorrenteRicardo.depositar(100);
+const conta2 = new ContaCorrente();
+conta2.cliente = cliente2;
+conta2.agencia = 102;
 
-const valorSacado = contaCorrenteRicardo.sacar(50);
-console.log(valorSacado);
+let valor = 200;
+contaCorrenteRicardo.transferir(valor, conta2);
 
-console.log(contaCorrenteRicardo);
-
-
-
+console.log("Valor:", valor);
+console.log(conta2);
+//console.log(contaCorrenteRicardo);
