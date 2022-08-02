@@ -14,9 +14,6 @@
 
 ### 01. Repetições de código 
 
-O que aprendemos?
-PRÓXIMA ATIVIDADE
-
 O que aprendemos nessa aula:
 
 - Criando classes
@@ -26,3 +23,17 @@ O que aprendemos nessa aula:
 - Instâcia/Objeto
 
 - Operador new 
+
+### 02. Adicionando comportamentos
+
+O que aprendemos nessa aula:
+
+- Criação de métodos
+
+- Palavra chave this
+
+- Encapsulamento
+
+- Proposta de atributos privados
+
+- Return e early return
