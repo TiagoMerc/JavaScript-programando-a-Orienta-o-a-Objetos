@@ -55,3 +55,18 @@ O que aprendemos nessa aula:
 - Alterando dinamicamente um objeto
 
 ### 04. Acessando Atributos da aula anterior
+
+O que aprendemos nessa aula:
+
+- Diferenças entre null e undefined
+
+- Aprofundando nos conceitos de referências a um espaço de memória
+
+- Get e Set
+
+- Melhor encapsulamento da classe
+
+- Protegendo atributos sensíveis
+
+### 05. Construtores e estáticos
+
