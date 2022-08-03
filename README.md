@@ -70,3 +70,12 @@ O que aprendemos nessa aula:
 
 ### 05. Construtores e estáticos
 
+O que aprendemos nessa aula:
+
+- Construtores
+
+- Encapsulamento
+
+- Atributos "readonly"
+
+- Atributos estáticos
