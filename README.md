@@ -79,3 +79,5 @@ O que aprendemos nessa aula:
 - Atributos "readonly"
 
 - Atributos estáticos
+
+Os atributos "readonly" ("somente leitura" em inglês) que o instrutor cita na verdade são os atributos que possuem apenas um acessor get e não possuem um acessor set, ou seja, podemos apenas ler seu valor, mas não sobrescrevê-lo. Um exemplo é o atributo cpf da classe Cliente, cujo valor é atribuído apenas no construtor da classe.
